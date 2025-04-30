@@ -15,3 +15,7 @@ PUB_YEAR varchar(5));
 
 desc BOOK;
 
+create table BOOK_AUTHOR(
+BOOK_ID INT references BOOK(BOOK_ID) ON DELETE cascade,
+AUTHOR_NAME varchar(20) NOT null,
+PRIMARY KEY(BOOK_ID));
