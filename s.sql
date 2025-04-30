@@ -22,3 +22,7 @@ PRIMARY KEY(BOOK_ID));
 
 desc BOOK_AUTHOR;
 
+create table LIBRARY_BRANCH(
+BRANCH_ID INT primary KEY,
+BRANCH_NAME varchar(20) NOT NULL,
+ADDRESS varchar(50));
