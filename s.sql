@@ -26,3 +26,6 @@ create table LIBRARY_BRANCH(
 BRANCH_ID INT primary KEY,
 BRANCH_NAME varchar(20) NOT NULL,
 ADDRESS varchar(50));
+
+DESC LIBRARY_BRANCH;
+
