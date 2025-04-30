@@ -29,3 +29,11 @@ ADDRESS varchar(50));
 
 DESC LIBRARY_BRANCH;
 
+
+CREATE table BOOK_LENDING(
+BOOK_ID INT references BOOK(BOOK_ID) ON DELETE cascade,
+BRANCH_ID INT references LIBRARY_BRANCH(BRANCH_ID) ON delete cascade,
+CARD_NO INT NOT null,
+DATE_OUT DATE not null,
+DUE_DATE Date,
+PRimary key(BOOK_ID,BRANCH_ID));
