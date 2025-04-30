@@ -37,3 +37,6 @@ CARD_NO INT NOT null,
 DATE_OUT DATE not null,
 DUE_DATE Date,
 PRimary key(BOOK_ID,BRANCH_ID));
+
+
+DESC BOOK_LENDING;
