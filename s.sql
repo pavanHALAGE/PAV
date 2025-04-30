@@ -13,3 +13,5 @@ TITLE varchar(20) not null,
 Publisher_Name varchar(20) references PUBLISHER(Name) ON delete cascade,
 PUB_YEAR varchar(5));
 
+desc BOOK;
+
