@@ -18,3 +18,16 @@ INSERT into PUBLISHER values("vijay","Sirsi",9467568976);
 INSERT into PUBLISHER values("naveen","Delhi",8976548976);
 
 select * from PUBLISHER;
+
+insert into BOOK VALUES(201,'DBMS','PEARSON','2015');
+insert into BOOK VALUES(202,'PYTHON PROGRAMMING','OXFORD','2020');
+insert into BOOK VALUES(203,'AI','MC GRAW HILL','2018');
+insert into BOOK VALUES(204,'AUTOMATA THEORY','MACMILLAN','2014');
+insert into BOOK VALUES(211,'game','jocky','2016');
+insert into BOOK VALUES(206,'C+ programmimg','chinnu','2017');
+insert into BOOK VALUES(207,'c programmimg','jhon','2023');
+insert into BOOK VALUES(208,'web development','locky','2022');
+insert into BOOK VALUES(209,'java','vamshi','2021');
+insert into BOOK VALUES(210,'spider rocks','viju','2013');
+
+
