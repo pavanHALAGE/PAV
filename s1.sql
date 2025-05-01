@@ -16,3 +16,5 @@ INSERT into PUBLISHER values("jocky","Bidar",6754321890);
 INSERT into PUBLISHER values("locky","Mysore",6812354678);
 INSERT into PUBLISHER values("vijay","Sirsi",9467568976);
 INSERT into PUBLISHER values("naveen","Delhi",8976548976);
+
+select * from PUBLISHER;
