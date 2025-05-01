@@ -30,4 +30,4 @@ insert into BOOK VALUES(208,'web development','locky','2022');
 insert into BOOK VALUES(209,'java','vamshi','2021');
 insert into BOOK VALUES(210,'spider rocks','viju','2013');
 
-
+SELECT * FROM BOOK;
