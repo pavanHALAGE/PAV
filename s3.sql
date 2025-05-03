@@ -19,3 +19,5 @@ SELECT Title FROM BOOK WHERE Pub_Year = 2014;
 
 SELECT No_of_Copies FROM BOOK_COPIES WHERE Branch_id = 102;
 
+SELECT Author_Name FROM BOOK_AUTHOR WHERE Book_id = 201;
+
