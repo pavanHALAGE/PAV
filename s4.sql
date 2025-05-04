@@ -1,3 +1,7 @@
 select  name from PUBLISHER where address ='MUMBAI';
 
-SELECT SUM(No_of_Copies) AS Total_Copies FROM BOOK_COPIES WHERE Book_id = 201;:
+SELECT SUM(No_of_Copies) AS Total_Copies FROM BOOK_COPIES WHERE Book_id = 201:
+
+SELECT Book_id  FROM BOOK_LENDING WHERE Branch_id = 101;
+
+
