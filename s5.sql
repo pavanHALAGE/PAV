@@ -2,4 +2,6 @@ SELECT Book_id, Branch_id, No_of_Copies
 FROM BOOK_COPIES;
 
 SELECT Branch_id, SUM(No_of_Copies) AS Total_Copies 
-FROM BOOK_COPIES 
+FROM BOOK_COPIES
+
+GROUP BY Branch_id;
