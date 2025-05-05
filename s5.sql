@@ -10,4 +10,8 @@ SELECT Title
 FROM BOOK
 WHERE Title LIKE '%AI%';
 
+SELECT Author_Name 
+FROM BOOK_AUTHOR
+WHERE Author_Name LIKE '%shiv%';
+
 
