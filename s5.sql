@@ -14,4 +14,6 @@ SELECT Author_Name
 FROM BOOK_AUTHOR
 WHERE Author_Name LIKE '%shiv%';
 
-
+SELECT Name 
+FROM PUBLISHER 
+WHERE Name LIKE '%locky%';
