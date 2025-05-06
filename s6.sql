@@ -1,3 +1,7 @@
 use library;
 
+SELECT * 
+FROM BOOK 
+NATURAL JOIN PUBLISHER;
+
 
