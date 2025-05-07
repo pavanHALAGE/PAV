@@ -18,3 +18,6 @@ FROM BOOK B
 
 SELECT B.Title,
 FROM BOOK B
+
+SELECT B.Publisher_Name,
+FROM BOOK B
