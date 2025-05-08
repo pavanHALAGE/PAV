@@ -7,4 +7,6 @@ FROM BOOK B
 SELECT P.Phone
 FROM BOOK B
 
+INNER JOIN PUBLISHER P ON B.Publisher_Name = P.Name;
+
 
