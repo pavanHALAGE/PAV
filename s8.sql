@@ -4,4 +4,7 @@ FROM BOOK B
 SELECT P.addres,
 FROM BOOK B
 
+SELECT P.Phone
+FROM BOOK B
+
 
