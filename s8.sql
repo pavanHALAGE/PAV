@@ -9,4 +9,5 @@ FROM BOOK B
 
 INNER JOIN PUBLISHER P ON B.Publisher_Name = P.Name;
 
-
+SELECT BA.Author_Name
+FROM BOOK B
