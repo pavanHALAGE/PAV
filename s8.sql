@@ -1,0 +1,2 @@
+SELECT B.Pub_Year, 
+FROM BOOK B
