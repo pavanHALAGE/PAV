@@ -1,2 +1,7 @@
 SELECT B.Pub_Year, 
 FROM BOOK B
+
+SELECT P.addres,
+FROM BOOK B
+
+
