@@ -11,3 +11,5 @@ INNER JOIN PUBLISHER P ON B.Publisher_Name = P.Name;
 
 SELECT BA.Author_Name
 FROM BOOK B
+
+INNER JOIN BOOK_AUTHOR BA ON B.Book_id = BA.Book_id;
