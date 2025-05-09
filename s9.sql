@@ -4,4 +4,7 @@ FROM BOOK B
 SELECT BC.No_of_Copies
 FROM BOOK B
 
+INNER JOIN BOOK_COPIES BC ON B.Book_id = BC.Book_id;
+
+
 
