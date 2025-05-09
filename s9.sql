@@ -1,4 +1,7 @@
 SELECT BC.Branch_id,
 FROM BOOK B
 
+SELECT BC.No_of_Copies
+FROM BOOK B
+
 
