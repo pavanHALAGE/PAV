@@ -1,0 +1,4 @@
+SELECT BC.Branch_id,
+FROM BOOK B
+
+
