@@ -1,0 +1,2 @@
+INNER JOIN BOOK_AUTHOR BA ON B.Book_id = BA.Book_id;
+
