@@ -1,2 +1,4 @@
 INNER JOIN BOOK_AUTHOR BA ON B.Book_id = BA.Book_id;
 
+SELECT BL.Card_No,
+FROM BOOK B
