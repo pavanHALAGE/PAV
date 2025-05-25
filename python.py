@@ -13,6 +13,7 @@ if num2 != 0 and num3 != 0:
 else:
     division = "Undefined (cannot divide by zero)"
     floor_division = "Undefined (cannot perform floor division by zero)"
+print("Division result:", division)
 
 print("Floor division result:", floor_division)
 print("The sum of the three numbers is:", total)
